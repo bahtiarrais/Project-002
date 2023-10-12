@@ -23,5 +23,7 @@ WebUI.navigateToUrl('https://www.google.com/?gws_rd=ssl')
 
 WebUI.click(findTestObject('Object Repository/Page_Google/button_Tetap logout'))
 
+WebUI.delay(3)
+
 WebUI.closeBrowser()
 
