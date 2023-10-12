@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.google.com/?gws_rd=ssl')
 
+WebUI.verifyElementVisible(findTestObject('Page_Google/button_Tetap logout'))
+
 WebUI.click(findTestObject('Object Repository/Page_Google/button_Tetap logout'))
 
 WebUI.delay(3)
